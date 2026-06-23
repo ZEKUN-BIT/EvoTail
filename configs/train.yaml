@@ -1,0 +1,9 @@
+# Reserved for continual-pretraining experiments after Phase 1 passes its stop/go gate.
+model:
+  name: facebook/esm2_t30_150M_UR50D
+training:
+  total_tokens: null
+  seed: 17
+  sampler: uniform
+  objective: mlm
+

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+
+# Large, externally versioned research assets
+data/raw/
+data/processed/
+artifacts/
+results/phase1/
+checkpoints/
+wandb/
+slurm/logs/
+

@@ -1,0 +1,14 @@
+# Replace all placeholder paths on the Slurm cluster. Do not commit site-specific paths.
+support_input: /path/to/protein_metadata.csv
+support_output: artifacts/support/protein_support.parquet
+proteingym_manifest: /path/to/proteingym_manifest.csv
+proteingym_scores_dir: artifacts/proteingym_scores
+phase1_output_dir: results/phase1
+
+support:
+  strata: 4
+  alpha: 1.0
+  minimum_weight: 0.25
+  maximum_weight: 4.0
+  allow_ambiguous_amino_acids: false
+

@@ -1,0 +1,10 @@
+phase1:
+  score_column: evo_score
+  phenotype_column: DMS_score
+  assay_column: DMS_id
+  protein_column: protein_id
+  bootstrap_samples: 5000
+  bootstrap_seed: 17
+  support_strata: 4
+  min_variants_per_assay: 20
+

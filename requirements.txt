@@ -1,11 +1,5 @@
-# CPU analysis and test dependencies
-numpy>=1.26
-pandas>=2.1
-pyarrow>=14.0
-matplotlib>=3.8
-PyYAML>=6.0
+-r requirements-cpu.txt
 
 # Required only by scripts/score_proteingym_assay.py on a GPU node.
 torch>=2.2
 transformers>=4.42
-

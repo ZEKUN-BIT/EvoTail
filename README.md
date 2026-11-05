@@ -81,6 +81,9 @@ python -m unittest discover -s tests -v
 
 The unit tests use synthetic data and do not download models or datasets. `torch`
 and `transformers` are only needed on a GPU node when running the ESM scoring script.
+For CPU analysis and tests, install `requirements-cpu.txt` instead of
+`requirements.txt`. GitHub Actions runs these tests on pushes to `main` and pull
+requests using Python 3.12.
 
 ## Reproducibility rules
 
